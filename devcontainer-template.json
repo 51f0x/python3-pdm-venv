@@ -1,0 +1,34 @@
+{
+    "id": "python3-pdm-venv",
+    "version": "0.0.1",
+    "name": "python3 & venv & pdm",
+    "description": "",
+    "documentationURL": "https://github.com/51f0x/python3-pdm-venv",
+    "licenseURL": "https://github.com/51f0x/python3-pdm-venv",
+    "options": {
+      "imageVariant": {
+        "type": "string",
+        "description": "System:",
+        "proposals": [
+          "ubuntu",
+          "ubuntu-22.04",
+          "jammy",
+          "ubuntu-20.04",
+          "focal",
+          "debian",
+          "bookworm",
+          "debian-11",
+          "bullseye"
+        ],
+        "default": "ubuntu-22.04"
+      },
+      "pythonVersion": {
+        "type": "string",
+        "description": "Python version:",
+        "proposals": ["3", "3.11", "3.10", "3.9", "3.8"],
+        "default": "3.11"
+      }
+    },
+    "platforms": ["python"]
+  }
+  
